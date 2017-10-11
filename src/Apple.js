@@ -15,5 +15,6 @@ class Apple extends Alive {
 
 /**
  * Sed vehicula purus dui
- * @event {Energy} beEaten
+ * @event Apple#beEaten
+ * @type {Energy}
  */

@@ -23,5 +23,8 @@
 	"markdown.hardwrap": true,
 	"markdown": {
 		"hardwrap": true
+	},
+	"metadata": {
+		"title": "seba"
 	}
 }

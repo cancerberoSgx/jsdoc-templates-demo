@@ -70,3 +70,8 @@ mv output/ demo/jsdoc-bootstrap-template
 npm install @pixi/jsdoc-template
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/\@pixi/jsdoc-template/
 mv output demo/pixi-jsdoc-template
+
+git clone https://github.com/ibm-js/jsdoc-amddcl
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t jsdoc-amddcl/templates/amddcl/
+rm -rf  jsdoc-amddcl
+mv output/ demo/amddcl
