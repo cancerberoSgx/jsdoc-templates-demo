@@ -75,3 +75,8 @@ git clone https://github.com/ibm-js/jsdoc-amddcl
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t jsdoc-amddcl/templates/amddcl/
 rm -rf  jsdoc-amddcl
 mv output/ demo/amddcl
+
+npm install https://github.com/hungluu2106/namis
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/namis/
+mv output demo/namis
+
