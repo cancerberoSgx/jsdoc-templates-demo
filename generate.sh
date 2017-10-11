@@ -43,7 +43,30 @@ mv output demo/minami
 git clone https://github.com/alivedise/jsdoc3-bootstrap.git
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t jsdoc3-bootstrap/
 mv output demo/jsdoc3-bootstrap
+rm -rf jsdoc3-bootstrap/
 
 npm install jsdoc-react
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/jsdoc-react/
 mv output demo/jsdoc-react
+
+git clone https://github.com/Astro36/Materialize-JSDoc.git
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t Materialize-JSDoc/
+mv output demo/Materialize-JSDoc
+rm -rf Materialize-JSDoc
+
+npm install https://github.com/openfin/jsdoc-template
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/jsdoc-template/
+mv output demo/openfin-jsdoc-template
+
+npm install https://github.com/braintree/jsdoc-template
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/jsdoc-template/
+mv output demo/braintree-jsdoc-template
+
+npm install https://github.com/Smolations/jsdoc-bootstrap-template
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/jsdoc-bootstrap-template/
+mv output/ demo/jsdoc-bootstrap-template
+
+
+npm install @pixi/jsdoc-template
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/\@pixi/jsdoc-template/
+mv output demo/pixi-jsdoc-template

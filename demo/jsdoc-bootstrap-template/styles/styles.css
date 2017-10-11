@@ -1,0 +1,129 @@
+::-moz-selection {
+  background-color: #ffd873;
+  color: #000000;
+}
+::selection {
+  background-color: #ffd873;
+  color: #000000;
+}
+body {
+  padding-top: 40px;
+}
+blockquote code {
+  font-size: 0.85em;
+}
+blockquote ul {
+  margin-top: 10px;
+}
+blockquote ul li {
+  margin: 0.4em 0 0.4em 1em;
+}
+code {
+  color: #ff8900;
+}
+h3 {
+  font-size: 29px;
+}
+li.deprecated {
+  text-decoration: line-through;
+}
+table td {
+  padding: 4px;
+}
+.dropdown-menu {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.label a {
+  color: #fff;
+  text-decoration: underline;
+}
+.signature code {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+.well pre {
+  background-color: #fefefe;
+}
+#main > nav.navbar .brand {
+  margin-left: 0;
+}
+#main #docs-sidebar ul.nav {
+  padding: 15px 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#main #docs-sidebar ul.nav li.active {
+  font-weight: bold;
+}
+#main #docs-sidebar ul.nav li.active a.inherited {
+  color: #ffffff;
+  font-style: italic;
+}
+#main #docs-sidebar ul.nav li.overrides {
+  color: #28369f;
+}
+#main #docs-sidebar ul.nav li a,
+#main #docs-sidebar ul.nav li h4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#main #docs-sidebar ul.nav li a.inherited {
+  color: #67bce6;
+  font-style: italic;
+}
+#main #docs-sidebar ul.nav li a.overrides {
+  font-weight: bold;
+}
+#main #docs-content {
+  padding: 10px 0;
+}
+#main #docs-content section.inherited dt .label,
+#main #docs-content section.overrides dt .label {
+  float: right;
+}
+#main #docs-content .container-overview h4.name {
+  display: none;
+}
+#main #docs-content .docs-member > dt,
+#main #docs-content .docs-method > dt {
+  font-family: Consolas, monospace;
+}
+#main #docs-content .docs-member > dt h4 span.type-signature:first-child,
+#main #docs-content .docs-method > dt h4 span.type-signature:first-child {
+  color: #999;
+}
+#main #docs-content .docs-member > dt h4 span.type-signature .label,
+#main #docs-content .docs-method > dt h4 span.type-signature .label {
+  font-size: 0.85em;
+  line-height: 1.2em;
+}
+#main #docs-content .docs-member .lead,
+#main #docs-content .docs-method .lead {
+  font-size: 18px;
+}
+#main #docs-content .docs-member .returns-table,
+#main #docs-content .docs-method .returns-table {
+  margin: -10px 0 20px;
+}
+#main #docs-content #docs-members .docs-member {
+  padding: 10px 10px 10px 20px;
+  border-bottom: 2px solid #eee;
+}
+#main #docs-content #docs-members .docs-member:hover {
+  box-shadow: 0 0 5px #67bce6;
+}
+#main #docs-content #docs-members .docs-member:last-child {
+  border-bottom: 0;
+}
+#main #docs-content #docs-methods .docs-method {
+  padding: 10px 10px 10px 20px;
+  border-bottom: 2px solid #eee;
+}
+#main #docs-content #docs-methods .docs-method:hover {
+  box-shadow: 0 0 5px #67bce6;
+}
+#main #docs-content #docs-methods .docs-method:last-child {
+  border-bottom: 0;
+}

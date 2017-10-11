@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Source: Environment.js</title>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"default":{"outputSourceFiles":true}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html"></a></h3>
+    <button id="menuToggle" class="btn btn-link btn-lg menu-toggle">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+    <div class="search">
+        <input id="search" type="text" class="form-control input-md" placeholder="Search...">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="Alive">
+            <span class="title ">
+                
+                <a href="Alive.html">Alive</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent" data-name="Alive#energy"><a href="Alive.html#energy">energy</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent" data-name="Alive#survive"><a href="Alive.html#survive">survive</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Apple">
+            <span class="title ">
+                
+                <a href="Apple.html">Apple</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent" data-name="Apple#color"><a href="Apple.html#color">color</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Energy">
+            <span class="title ">
+                
+                <a href="Energy.html">Energy</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent" data-name="Energy#amount"><a href="Energy.html#amount">amount</a></li>
+            
+                <li class="parent" data-name="Energy#unit"><a href="Energy.html#unit">unit</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Environment">
+            <span class="title ">
+                
+                <a href="Environment.html">Environment</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent" data-name="Environment#livingThings"><a href="Environment.html#livingThings">livingThings</a></li>
+            
+                <li class="parent" data-name="Environment#name"><a href="Environment.html#name">name</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent" data-name="Environment#start"><a href="Environment.html#start">start</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            <span class="subtitle">Events</span>
+            
+                <li class="parent" data-name="Environment#event:beforeDestroy"><a href="Environment.html#event:beforeDestroy">beforeDestroy</a></li>
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Tree">
+            <span class="title ">
+                
+                <a href="Tree.html">Tree</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent" data-name="Tree#branches"><a href="Tree.html#branches">branches</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent" data-name="Tree#crop"><a href="Tree.html#crop">crop</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="Environment.js.html">Source: Environment.js</h1>
+        
+
+
+    
+    <section>
+        <header>
+            <div class="header content-size">
+                <h2>Environment.js</h2>
+            </div>
+        </header>
+        <article>
+            <pre id="source-code" class="prettyprint source "><code>/**
+ * Lorem ipsum dolor sit amet, {@link Energy} consectetur adipiscing elit. Vestibulum condimentum tempus diam. Ut eget ultricies metus, vitae ornare turpis. Vivamus lectus metus, euismod quis tortor quis, pretium semper massa. Nulla mauris sapien, faucibus vitae metus et, ultrices fringilla sem. Sed laoreet tempor odio, elementum scelerisque nunc aliquet quis.
+ * 
+ * @class
+ */
+class Environment {
+
+	constructor() {
+
+		/**
+		 * All the living things in this environment
+		 * @type {Array&lt;Alive>}
+		 */
+		this.livingThings = null
+
+		/**
+		 * The name of this environment
+		 * @type {String}
+		 */
+		this.name = null
+	}
+
+	/**
+     * Vestibulum condimentum tempus {@link Alive} diam. 
+	 * @param {EnvironmentConfiguration} config
+	 */
+	start(config) {
+
+	}
+}
+
+/**
+ * @typedef {Object} EnvironmentConfiguration
+ * @property {String} name
+ * @property {Map&lt;String,Number>} strange
+ */
+
+ /**
+ * Lorem ipsum dolor sit amet, {@link Energy} consectetur adipiscing el
+ * @event Environment#beforeDestroy
+ * @type {Energy}
+ * @property {boolean} foo aalks djlas 
+ */</code></pre>
+        </article>
+    </section>
+
+
+
+
+
+
+        
+
+        <footer class="content-size">
+            <div class="footer">
+                Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Oct 10 2017 23:02:52 GMT-0300 (-03)
+            </div>
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

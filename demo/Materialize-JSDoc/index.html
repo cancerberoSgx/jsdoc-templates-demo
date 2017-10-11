@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" class="mdl-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Javascript documents.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#3f51b5">
+    <meta name="msapplication-navbutton-color" content="#3f51b5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="google" content="notranslate">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="assets/img_docs.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-100">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Home</span>
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="search-bar" id="search-icon">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="search-icon" id="search-list" style="width: 225px">
+                        <li class="mdl-menu__item">Enter your text to search</li>
+                        <li class="mdl-menu__item"></li>
+                        <li class="mdl-menu__item"></li>
+                        <li class="mdl-menu__item"></li>
+                        <li class="mdl-menu__item"></li>
+                    </ul>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" id="search-bar" onkeydown="setTimeout(search, 50);">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Classes</span><nav class="mdl-navigation"><a class="mdl-navigation__link"style="text-decoration:none" href="Alive.html">Alive</a><a class="mdl-navigation__link"style="text-decoration:none" href="Apple.html">Apple</a><a class="mdl-navigation__link"style="text-decoration:none" href="Energy.html">Energy</a><a class="mdl-navigation__link"style="text-decoration:none" href="Environment.html">Environment</a><a class="mdl-navigation__link"style="text-decoration:none" href="Tree.html">Tree</a></nav><hr><span class="mdl-layout-title">Events</span><nav class="mdl-navigation"><a class="mdl-navigation__link"style="text-decoration:none" href="global.html#event:%257BEnergy%257DbeEaten">{Energy} beEaten</a><a class="mdl-navigation__link"style="text-decoration:none" href="Environment.html#event:beforeDestroy">beforeDestroy</a></nav><hr><span class="mdl-layout-title"><a style="text-decoration:none" href="global.html">Global</a></span>
+        </div>
+        <main class="mdl-layout__content">
+            <a name="top"></a>
+            
+
+
+
+    
+
+
+<div class="mdl-color--primary-dark mdl-grid" style="padding: 16px 16px 16px 16px;">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--order-1" id="particles-js-0" style="height: 60px"></div>
+    <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--2-col-tablet mdl-cell--1-col-phone mdl-cell--order-2 mdl-cell--middle">
+        <img src="assets/ic_create_white.png" width="100%" height="100%">
+    </div>
+    <div class="mdl-cell mdl-cell--3-col mdl-cell--order-3 mdl-cell--middle">
+        <span class="mdl-color-text--white" style="font-size: 2em">Astro Library 2.1</span><br><br>
+        <span class="mdl-color-text--white" style="font-size: 1em">Javascript Documents</span>
+    </div>
+    <div class="mdl-cell mdl-cell--7-col-desktop mdl-cell--3-col-tablet mdl-cell--order-4-desktop mdl-cell--order-4-tablet mdl-cell--hide-phone" id="particles-js-1" style="height: 160px"></div>
+    <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--order-5" id="particles-js-2" style="height: 60px"></div>
+</div>
+<script src="assets/particles.min.js"></script>
+<script type="text/javascript">
+var particleObj = {
+    particles: {
+        number: {
+            value: 200,
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        },
+        color: {
+            value: "#ffffff"
+        },
+        shape: {
+            type: "circle",
+            stroke: {
+                width: 0,
+                color: "#000000"
+            },
+            polygon: {
+                nb_sides: 5
+            },
+            image: {
+                src: "img/github.svg",
+                width: 100,
+                height: 100
+            }
+        },
+        opacity: {
+            value: 1,
+            random: true,
+            anim: {
+                enable: true,
+                speed: 1,
+                opacity_min: 0,
+                sync: false
+            }
+        },
+        size: {
+            value: 3,
+            random: true,
+            anim: {
+                enable: false,
+                speed: 4,
+                size_min: 0.3,
+                sync: false
+            }
+        },
+        line_linked: {
+            enable: false,
+            distance: 150,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1
+        },
+        move: {
+            enable: true,
+            speed: 1,
+            direction: "none",
+            random: true,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 600
+            }
+        }
+    },
+    interactivity: {
+        detect_on: "canvas",
+        events: {
+            onhover: {
+                enable: true,
+                mode: "none"
+            },
+            onclick: {
+                enable: true,
+                mode: "push"
+            },
+            resize: true
+        },
+        modes: {
+            grab: {
+                distance: 400,
+                line_linked: {
+                    opacity: 1
+                }
+            },
+            bubble: {
+                distance: 250,
+                size: 0,
+                duration: 2,
+                opacity: 0,
+                speed: 3
+            },
+            repulse: {
+                distance: 400,
+                duration: 0.4
+            },
+            push: {
+                particles_nb: 10
+            },
+            remove: {
+                particles_nb: 2
+            }
+        }
+    },
+    retina_detect: true
+};
+particlesJS("particles-js-0", particleObj);
+particlesJS("particles-js-1", particleObj);
+particlesJS("particles-js-2", particleObj);
+</script>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Copyright 2016-2017&nbsp;<a class="mdl-color-text--grey-100" href="https://github.com/Astro36">Astro</a>. All rights reserved.</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#top">Back to Top</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="text/javascript">
+        var classList = JSON.parse('{"Alive":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Alive.html>Alive</a></li>","Apple":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Apple.html>Apple</a></li>","Energy":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Energy.html>Energy</a></li>","Environment":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Environment.html>Environment</a></li>","Tree":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Tree.html>Tree</a></li>","{Energy} beEaten":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=global.html#event:%257BEnergy%257DbeEaten>{Energy} beEaten</a></li>","beforeDestroy":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Environment.html#event:beforeDestroy>beforeDestroy</a></li>"}'),
+            searchBar = document.getElementById("search-bar"),
+            searchList = document.getElementById("search-list");
+        function search() {
+            var text = searchBar.value.trim().toLowerCase(),
+                showedList = [];
+            searchList.innerHTML = "";
+            if (text.length > 0) {
+                for (var i in classList) {
+                    var searchedText = classList[i];
+                    if (showedList.length <= 5) {
+                        if (i.toLowerCase().search(text) >= 0) {
+                            showedList.push(searchedText);
+                        }
+                    } else {
+                        break;
+                    }
+                }
+            }
+            for (var k = 0; k < 5; k++) {
+                if (typeof showedList[k] === "string") {
+                    searchList.innerHTML += showedList[k];
+                } else {
+                    if (k === 0) {
+                        searchList.innerHTML += "<li class=mdl-menu__item>Enter your text to search</li>";
+                    } else {
+                        searchList.innerHTML += "<li class=mdl-menu__item></li>";
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
