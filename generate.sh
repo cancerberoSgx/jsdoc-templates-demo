@@ -7,10 +7,11 @@ node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json
 rm -rf demo/default
 mv output demo/default
 
-npm install loke-jsdoc-theme
-node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/loke-jsdoc-theme
-rm -rf demo/loke-jsdoc-theme
-mv output demo/loke-jsdoc-theme
+# foodoc - very like this ! has lots of configs and mostly it allow users to hide inherited - public fields.
+npm install foo-doc
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/foodoc/template
+rm -rf demo/foodoc
+mv output demo/foodoc
 
 # ink-docstrap
 npm install ink-docstrap
@@ -52,6 +53,14 @@ npm install minami
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/minami
 rm -rf demo/minami
 mv output demo/minami
+
+
+# loke-jsdoc-theme
+npm install loke-jsdoc-theme
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/loke-jsdoc-theme
+rm -rf demo/loke-jsdoc-theme
+mv output demo/loke-jsdoc-theme
+
 
 git clone https://github.com/alivedise/jsdoc3-bootstrap.git
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t jsdoc3-bootstrap/
