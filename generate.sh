@@ -7,6 +7,10 @@ node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json
 rm -rf demo/default
 mv output demo/default
 
+npm install loke-jsdoc-theme
+node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/loke-jsdoc-theme
+rm -rf demo/loke-jsdoc-theme
+mv output demo/loke-jsdoc-theme
 
 # ink-docstrap
 npm install ink-docstrap
