@@ -28,7 +28,7 @@
     <div class="container-fluid">
       <div class="row-fluid">
           <div class="span4">
-              <h2><a href="index.html">Index</a></h2><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Classes</li><li><a href="Alive.html"><i class="icon-shield" style="color: #0186d1"></i> Alive</a></li><li><a href="Apple.html"><i class="icon-shield" style="color: #0186d1"></i> Apple</a></li><li><a href="Energy.html"><i class="icon-shield" style="color: #0186d1"></i> Energy</a></li><li><a href="Environment.html"><i class="icon-shield" style="color: #0186d1"></i> Environment</a></li><li><a href="Tree.html"><i class="icon-shield" style="color: #0186d1"></i> Tree</a></li></ul></div><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Public Events</li><li><a href="Environment.html#event:beforeDestroy"><i class="icon-bell-alt" style="color: yellow"></i> beforeDestroy <span class="label label-inverse pull-right">Environment</span></a></li><li><a href="global.html#event:%257BEnergy%257DbeEaten"><i class="icon-bell-alt" style="color: yellow"></i> {Energy} beEaten <span class="label label-inverse pull-right">undefined</span></a></li></ul></div><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Private Events</li></ul></div><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Global</li></ul></div>
+              <h2><a href="index.html">Index</a></h2><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Classes</li><li><a href="Alive.html"><i class="icon-shield" style="color: #0186d1"></i> Alive</a></li><li><a href="Apple.html"><i class="icon-shield" style="color: #0186d1"></i> Apple</a></li><li><a href="Energy.html"><i class="icon-shield" style="color: #0186d1"></i> Energy</a></li><li><a href="Environment.html"><i class="icon-shield" style="color: #0186d1"></i> Environment</a></li><li><a href="Tree.html"><i class="icon-shield" style="color: #0186d1"></i> Tree</a></li></ul></div><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Public Events</li><li><a href="Apple.html#event:beEaten"><i class="icon-bell-alt" style="color: yellow"></i> beEaten <span class="label label-inverse pull-right">Apple</span></a></li><li><a href="Environment.html#event:beforeDestroy"><i class="icon-bell-alt" style="color: yellow"></i> beforeDestroy <span class="label label-inverse pull-right">Environment</span></a></li></ul></div><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Private Events</li></ul></div><div class="well well-small"><ul class="nav nav-list"><li class="nav-header">Global</li></ul></div>
           </div>
 
           <div class="span8">
@@ -52,6 +52,11 @@
     <div class="container-overview hero-unit">
     
 
+            
+        <ul class="breadcrumb">
+            <li>Extends</li>
+            <li><a href="Alive.html" class="btn btn-primary">Alive</a></li>
+        </ul>
     
 
     
@@ -150,6 +155,108 @@
     
     
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <h4 class="name" id="energy">energy<span class="type-signature"></span></h4>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>amount of energy</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+        <h5 class="subsection-title">Properties:</h5>
+        
+        <dl>
+
+<table class="props table table-bordered table-condensed">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name">the</td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Energy.html">Energy</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last"></td>
+        </tr>
+	
+	
+	</tbody>
+</table></dl>
+        
+    
+        
+    
+    
+    
+
+    
+    <dd class="inherited-from"><ul class="dummy breadcrumb"><li>Inherited From:</li><li>
+        <a href="Alive.html#energy">Alive#energy</a>
+    </li></dd>
     
     
     
@@ -308,6 +415,137 @@
     
 </dd>
 
+        
+            
+<dt>
+    <h4 class="name" id="survive">survive<span class="signature">(environment)</span><span class="type-signature"> &rarr; {<a href="Energy.html">Energy</a>}</span></h4>
+    
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-bordered table-condensed">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+
+		<th>Type</th>
+
+		
+
+		
+
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	
+
+        <tr>
+            
+                <td class="name">environment</td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Environment.html">Environment</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the environment when this Alive thing is surviving</p></td>
+        </tr>
+
+	
+	</tbody>
+</table>
+
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    <dd class="inherited-from"><ul class="dummy breadcrumb"><li>Inherited From:</li><li>
+        <a href="Alive.html#survive">Alive#survive</a>
+    </li></dd>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+            <div class="returns">
+
+
+    
+<span class="param-type"><a href="Energy.html">Energy</a></span>
+
+
+
+
+<span class="param-desc">
+    <p>the energy wasted in this surviving instance</p>
+</span>
+
+</div>
+
+        
+    
+    
+</dd>
+
         </dl>
     
     
@@ -327,7 +565,7 @@
         <br clear="both">
 
       <footer>
-        Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Oct 10 2017 21:54:23 GMT-0300 (-03)
+        Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Mon Oct 30 2017 20:40:10 GMT-0300 (-03)
         <br>
       </footer>
       <script> prettyPrint(); </script>

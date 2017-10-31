@@ -42,7 +42,7 @@
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Classes</span><nav class="mdl-navigation"><a class="mdl-navigation__link"style="text-decoration:none" href="Alive.html">Alive</a><a class="mdl-navigation__link"style="text-decoration:none" href="Apple.html">Apple</a><a class="mdl-navigation__link"style="text-decoration:none" href="Energy.html">Energy</a><a class="mdl-navigation__link"style="text-decoration:none" href="Environment.html">Environment</a><a class="mdl-navigation__link"style="text-decoration:none" href="Tree.html">Tree</a></nav><hr><span class="mdl-layout-title">Events</span><nav class="mdl-navigation"><a class="mdl-navigation__link"style="text-decoration:none" href="global.html#event:%257BEnergy%257DbeEaten">{Energy} beEaten</a><a class="mdl-navigation__link"style="text-decoration:none" href="Environment.html#event:beforeDestroy">beforeDestroy</a></nav><hr><span class="mdl-layout-title"><a style="text-decoration:none" href="global.html">Global</a></span>
+            <span class="mdl-layout-title">Classes</span><nav class="mdl-navigation"><a class="mdl-navigation__link"style="text-decoration:none" href="Alive.html">Alive</a><a class="mdl-navigation__link"style="text-decoration:none" href="Apple.html">Apple</a><a class="mdl-navigation__link"style="text-decoration:none" href="Energy.html">Energy</a><a class="mdl-navigation__link"style="text-decoration:none" href="Environment.html">Environment</a><a class="mdl-navigation__link"style="text-decoration:none" href="Tree.html">Tree</a></nav><hr><span class="mdl-layout-title">Events</span><nav class="mdl-navigation"><a class="mdl-navigation__link"style="text-decoration:none" href="Apple.html#event:beEaten">beEaten</a><a class="mdl-navigation__link"style="text-decoration:none" href="Environment.html#event:beforeDestroy">beforeDestroy</a></nav><hr><span class="mdl-layout-title"><a style="text-decoration:none" href="global.html">Global</a></span>
         </div>
         <main class="mdl-layout__content">
             <a name="top"></a>
@@ -55,7 +55,8 @@
         <article>
             <pre class="prettyprint source linenums"><code>/**
  * Donec imperdiet dignissim semper. Sed vehicula purus dui, eget porta lectus convallis sagittis. Suspendisse ac lectus dignissim, tincidunt nisi quis, gravida metus.
- * @class 
+ * @class
+ * @extends Alive
  */
 class Apple extends Alive {
 	constructor() {
@@ -70,7 +71,8 @@ class Apple extends Alive {
 
 /**
  * Sed vehicula purus dui
- * @event {Energy} beEaten
+ * @event Apple#beEaten
+ * @type {Energy}
  */</code></pre>
         </article>
     </section>
@@ -91,7 +93,7 @@ class Apple extends Alive {
     </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script type="text/javascript">
-        var classList = JSON.parse('{"Alive":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Alive.html>Alive</a></li>","Apple":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Apple.html>Apple</a></li>","Energy":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Energy.html>Energy</a></li>","Environment":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Environment.html>Environment</a></li>","Tree":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Tree.html>Tree</a></li>","{Energy} beEaten":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=global.html#event:%257BEnergy%257DbeEaten>{Energy} beEaten</a></li>","beforeDestroy":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Environment.html#event:beforeDestroy>beforeDestroy</a></li>"}'),
+        var classList = JSON.parse('{"Alive":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Alive.html>Alive</a></li>","Apple":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Apple.html>Apple</a></li>","Energy":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Energy.html>Energy</a></li>","Environment":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Environment.html>Environment</a></li>","Tree":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Tree.html>Tree</a></li>","beEaten":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Apple.html#event:beEaten>beEaten</a></li>","beforeDestroy":"<li class=mdl-menu__item><a class=mdl-menu__item style=text-decoration:none href=Environment.html#event:beforeDestroy>beforeDestroy</a></li>"}'),
             searchBar = document.getElementById("search-bar"),
             searchList = document.getElementById("search-list");
         function search() {

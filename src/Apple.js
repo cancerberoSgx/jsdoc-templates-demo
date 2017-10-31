@@ -1,6 +1,7 @@
 /**
  * Donec imperdiet dignissim semper. Sed vehicula purus dui, eget porta lectus convallis sagittis. Suspendisse ac lectus dignissim, tincidunt nisi quis, gravida metus.
- * @class 
+ * @class
+ * @extends Alive
  */
 class Apple extends Alive {
 	constructor() {

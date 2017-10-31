@@ -11,7 +11,7 @@ class Energy {
 		this.amount = null
 
         /**
-         * Mauris interdum neque {@link Environment} id massa 
+         * Mauris interdum neque {@link Environment} id massa
          * @type {EnergyUnit}
          */
 		this.unit = null

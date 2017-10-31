@@ -79,6 +79,8 @@
             
                 <li class="parent" data-name="Apple#color"><a href="Apple.html#color">color</a></li>
             
+                <li class="" data-name="Apple#energy"><a href="Apple.html#energy">energy</a></li>
+            
             </ul>
             <ul class="typedefs itemMembers">
             
@@ -88,8 +90,16 @@
             </ul>
             <ul class="methods itemMembers">
             
+            <span class="subtitle">Methods</span>
+            
+                <li class="" data-name="Apple#survive"><a href="Apple.html#survive">survive</a></li>
+            
             </ul>
             <ul class="events itemMembers">
+            
+            <span class="subtitle">Events</span>
+            
+                <li class="parent" data-name="Apple#event:beEaten"><a href="Apple.html#event:beEaten">beEaten</a></li>
             
             </ul>
         </li>
@@ -169,6 +179,8 @@
             
                 <li class="parent" data-name="Tree#branches"><a href="Tree.html#branches">branches</a></li>
             
+                <li class="" data-name="Tree#energy"><a href="Tree.html#energy">energy</a></li>
+            
             </ul>
             <ul class="typedefs itemMembers">
             
@@ -181,6 +193,8 @@
             <span class="subtitle">Methods</span>
             
                 <li class="parent" data-name="Tree#crop"><a href="Tree.html#crop">crop</a></li>
+            
+                <li class="" data-name="Tree#survive"><a href="Tree.html#survive">survive</a></li>
             
             </ul>
             <ul class="events itemMembers">
@@ -225,7 +239,7 @@
     
         
         <div class="tag-source">
-            <a href="Tree.js.html#line5">Tree.js:5</a>
+            <a href="Tree.js.html#line6">Tree.js:6</a>
         </div>
         
     </div>
@@ -284,6 +298,12 @@
     
     </div>
     
+    
+        <h3 class="subsection-title">Extends</h3>
+        
+        <ul>
+            <li><a href="Alive.html">Alive</a></li>
+        </ul>
     
     
     
@@ -347,6 +367,109 @@
     
 </dd>
 
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="energy">
+            <a class="share-icon" href="#energy"><span class="glyphicon glyphicon-link"></span></a>
+            energy
+            
+                <span class="access-signature inherited"><a href="Alive.html#energy">inherited</a></span>
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>amount of energy</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+        <h5 class="subsection-title">Properties:</h5>
+        
+        <dl>
+
+<table class="props">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>the</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Energy.html">Energy</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            
+            
+            <td class="description last"></td>
+        </tr>
+	
+	
+	</tbody>
+</table></dl>
+        
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
         </dl>
     
     
@@ -366,7 +489,152 @@
     
         
         <div class="tag-source">
-            <a href="Tree.js.html#line19">Tree.js:19</a>
+            <a href="Tree.js.html#line20">Tree.js:20</a>
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>environment</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Environment.html">Environment</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>the environment when this Alive thing is surviving</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    <h5>Returns:</h5>
+    
+
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        <a href="Energy.html">Energy</a>
+                        
+                    
+            </td>
+            <td class="description last">the energy wasted in this surviving instance</td>
+        </tr>
+    
+    </tbody>
+</table>
+
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="survive">
+            <a class="share-icon" href="#survive"><span class="glyphicon glyphicon-link"></span></a>
+            survive<span class="signature">(environment)</span><span class="type-signature"><a href="Energy.html">Energy</a></span>
+            
+                <span class="access-signature inherited"><a href="Alive.html#survive">inherited</a></span>
+            
+            
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="Alive.js.html#line18">Alive.js:18</a>
         </div>
         
     </div>
@@ -516,7 +784,7 @@
 
         <footer class="content-size">
             <div class="footer">
-                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Tue Oct 10 2017 23:02:52 GMT-0300 (-03)
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Mon Oct 30 2017 20:40:45 GMT-0300 (-03)
             </div>
         </footer>
     </div>

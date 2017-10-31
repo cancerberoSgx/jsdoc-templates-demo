@@ -1,6 +1,7 @@
 /**
  * Donec imperdiet dignissim semper. Sed vehicula purus dui, eget porta lectus convallis sagittis. Suspendisse ac lectus dignissim, tincidunt nisi quis, gravida metus.
- * @class 
+ * @class
+ * @extends Alive
  */
 class Tree extends Alive {
 	constructor() {
@@ -14,7 +15,7 @@ class Tree extends Alive {
 	/**
 	 * @param {Environment} environment the environment when this Alive thing is surviving
 	 * @return {Energy} the energy wasted in this surviving instance
-	 * @method 
+	 * @method
 	 */
 	crop() {
 		return null
