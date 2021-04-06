@@ -8,7 +8,7 @@ rm -rf demo/default
 mv output demo/default
 
 # foodoc - very like this ! has lots of configs and mostly it allow users to hide inherited - public fields.
-npm install foo-doc
+npm install foodoc
 node node_modules/jsdoc/jsdoc.js -c jsdoc-config.json -t node_modules/foodoc/template
 rm -rf demo/foodoc
 mv output demo/foodoc
