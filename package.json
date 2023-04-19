@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@types/underscore": "^1.8.4",
-    "jsdoc": "^3.5.5"
+    "jsdoc": "^3.6.11"
   }
 }
